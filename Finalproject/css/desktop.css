@@ -1,0 +1,72 @@
+/********************************
+* Large Screen Styles
+* 1200px viewport / 18px font = 66.7em
+********************************/
+
+@media (min-width: 66.7em) {
+	
+header h1{
+    font-family: 'Indie Flower';
+    font-size: 500%;
+    text-align: center;
+}
+
+a:visited, a:link{
+    color: #000;
+    text-decoration: none;
+}
+
+.main {
+	max-width: 80%;
+	padding: 20px;
+}
+
+.class{
+    width: 100%;
+}
+
+    
+a:visited, a:link{
+    color: #fff;
+    text-decoration: none;
+}
+    
+.logo{
+    padding: 20px 800px ;
+}
+
+.info-box {
+    margin: auto;
+    padding: 0 0 15px;
+    width: 500px;
+ }
+
+.staff-box {
+    margin: auto;
+    padding: 0 0 15px;
+    width: 500px;
+ }    
+    
+.map{
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: auto; 
+} 
+    
+.map iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 50%;
+}
+
+.submitBtn {
+	-webkit-appearance: none;	
+	width: 10%;
+	
+}
+    
+}
